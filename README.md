@@ -1,14 +1,16 @@
 # Marie-Gold — music
 
-Stems and lyrics for every released song by Marie-Gold. One folder per song or project.
+Stems and lyrics for every released song by Marie-Gold. One folder per song.
+
+The four songs are the EP **Projet de guitare abandonné** (2026). Listen: https://ffm.to/projetdeguitareabandonne
 
 ## Structure
 
 ```
-songs-name/
-  stems/        stems and full track (WAV)
-  lyrics.csv    
-  credits.yaml  
+songs/<song>/
+  stems/        voice, guitar and full track (WAV)
+  lyrics.csv    lyrics, one line per row
+  credits.yaml  who did what
 LICENCE.md      what you may do with these files
 ```
 
